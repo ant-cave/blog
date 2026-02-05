@@ -1,0 +1,62 @@
+---
+---
+
+// 导入 minima 的基础样式，不然全得自己写，太麻烦了
+@import "minima";
+
+// 整体背景换个深色系，看起来高级点
+// 之前是白的，太普通了
+body {
+  background-color: #1a1a2e;
+  color: #eaeaea;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+// 链接颜色也得换，不然蓝配深紫太丑了
+a {
+  color: #e94560;
+  text-decoration: none;
+  
+  &:hover {
+    color: #ff6b6b;
+    text-decoration: underline;
+  }
+}
+
+// 头部导航栏改个色
+.site-header {
+  background-color: #16213e;
+  border-bottom: 1px solid #0f3460;
+}
+
+.site-title {
+  color: #eaeaea !important;
+  
+  &:hover {
+    color: #e94560 !important;
+  }
+}
+
+// 文章列表样式微调
+.post-list {
+  li {
+    border-bottom: 1px solid #0f3460;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.post-meta {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+}
+
+// 页脚也改深色
+.site-footer {
+  background-color: #16213e;
+  border-top: 1px solid #0f3460;
+  color: #a0a0a0;
+}
+
+// TODO: 代码块样式还没调，现在先凑合用默认的
+// 以后有空再弄代码高亮
