@@ -1,2 +1,4 @@
 title: myblog
 theme: minima
+
+baseurl: /blog
